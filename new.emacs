@@ -1,4 +1,4 @@
-(require 'package) ;; You might already have this line
+    (require 'package) ;; You might already have this line
 ;; (add-to-list 'package-archives              '("melpa" . "https://melpa.org/packages/"))
 (setq package-archives '(("gnu" . "https://elpa.gnu.org/packages/") 
                          ("marmalade" . "https://marmalade-repo.org/packages/") 
