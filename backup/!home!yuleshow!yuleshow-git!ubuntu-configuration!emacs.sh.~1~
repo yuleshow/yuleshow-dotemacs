@@ -1,0 +1,4 @@
+# emacs install and configuration
+git clone https://www.github.com/yuleshow/emacs.git
+mv emacs/new.emacs ~/.emacs
+mv emacs ~/.emacs.d
