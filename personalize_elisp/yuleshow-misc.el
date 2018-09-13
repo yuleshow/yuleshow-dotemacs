@@ -28,7 +28,7 @@
 ;; (edit-server-start)
 
 ;; for avoiding put the backup file in the same folder
-(setq backup-directory-alist '((".*" . "~/.emacs.d/backup"))
+(setq backup-directory-alist '((".*" . "~/yuleshow-emacs-backup"))
   backup-by-copying t    ; Don't delink hardlinks
   version-control t      ; Use version numbers on backups
   delete-old-versions t  ; Automatically delete excess backups
@@ -38,7 +38,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (setq auto-save-file-name-transforms
-          `((".*" "~/.emacs.d/backup" t)))
+          `((".*" "~/yuleshow-emacs-backup" t)))
 
 
 
