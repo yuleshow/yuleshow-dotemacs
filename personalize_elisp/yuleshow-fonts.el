@@ -55,18 +55,18 @@
 (global-set-key (kbd "<S-wheel-left>") 'text-scale-increase)
 (global-set-key (kbd "<S-wheel-right>") 'text-scale-decrease)
 
-; (defun my-han-kai () 
-;   (interactive) 
-;  (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "AR PL UKai CN")))
+                                        ; (defun my-han-kai () 
+                                        ;   (interactive) 
+                                        ;  (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "AR PL UKai CN")))
 
 
 (if (eq system-type 'darwin)  (defun my-han-kai () 
-  (interactive) 
-  (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "Kaiti TC"))))
+                                (interactive) 
+                                (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "Kaiti TC"))))
 
 (if (eq system-type 'gnu/linux) (defun my-han-kai () 
-  (interactive) 
-  (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "AR PL UKai CN"))))
+                                  (interactive) 
+                                  (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "AR PL UKai CN"))))
 
 (defun my-han-ming-GenRyu () 
   (interactive) 
@@ -165,33 +165,50 @@
 (defun my-ascii-DejaVu-Mono () 
   (interactive)
   (custom-set-faces
- '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight normal :height 102 :width normal)))))
-)
+   '(default ((t (:family "DejaVu Sans Mono" :foundry "PfEd" :slant normal :weight normal :height 102 :width normal)))))
+  )
+(defun my-ascii-ToxTypewriter () 
+  (interactive)
+  (custom-set-faces
+   '(default ((t (:family "Tox Typewriter" :foundry "PfEd" :slant normal :weight normal :height 102 :width normal)))))
+  )
+
 
 (defun my-ascii-AnonymousPro () 
   (interactive)
   (custom-set-faces
- '(default ((t (:family "Anonymous Pro" :foundry "mlss" :slant normal :weight normal :height 102 :width normal)))))
+   '(default ((t (:family "Anonymous Pro" :foundry "mlss" :slant normal :weight normal :height 102 :width normal)))))
   )
 (defun my-ascii-SourceCode () 
   (interactive)
   (custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(default ((t (:family "Source Code Variable" :foundry "ADBO" :slant normal :weight normal :height 102 :width normal)))))
+   ;; custom-set-faces was added by Custom.
+   ;; If you edit it by hand, you could mess it up, so be careful.
+   ;; Your init file should contain only one such instance.
+   ;; If there is more than one, they won't work right.
+   '(default ((t (:family "Source Code Variable" :foundry "ADBO" :slant normal :weight normal :height 102 :width normal)))))
   )
 
+(defun my-ascii-Courier () 
+  (interactive)
+  (custom-set-faces
+   ;; custom-set-faces was added by Custom.
+   ;; If you edit it by hand, you could mess it up, so be careful.
+   ;; Your init file should contain only one such instance.
+   ;; If there is more than one, they won't work right.
+   '(default ((t (:family "Courier New" :foundry "ADBO" :slant normal :weight normal :height 102 :width normal)))))
+  )
 
 (global-set-key (kbd "M-1") 'my-ascii-TNR)
 (global-set-key (kbd "M-2") 'my-ascii-Georgia)
 (global-set-key (kbd "M-3") 'my-ascii-Tahoma)
 (global-set-key (kbd "M-4") 'my-ascii-Ubuntu)
 (global-set-key (kbd "M-5") 'my-ascii-Ubuntu-Mono)
-(global-set-key (kbd "M-6") 'my-ascii-DejaVu-Mono)
+;;  (global-set-key (kbd "M-6") 'my-ascii-DejaVu-Mono)
+(global-set-key (kbd "M-6") 'my-ascii-ToxTypewriter)
 (global-set-key (kbd "M-7") 'my-ascii-AnonymousPro)
 (global-set-key (kbd "M-8") 'my-ascii-SourceCode)
+(global-set-key (kbd "M-9") 'my-ascii-Courier)
 
 
 

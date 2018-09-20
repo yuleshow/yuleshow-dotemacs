@@ -156,7 +156,11 @@
 
 
 
+; (global-visual-line-mode t)
 
+
+
+(add-hook 'text-mode-hook #'toggle-word-wrap)
 
 (require 'yuleshow-welcome)
 
