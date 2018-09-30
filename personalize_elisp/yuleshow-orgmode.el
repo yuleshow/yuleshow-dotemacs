@@ -48,6 +48,8 @@
 
 (setq org-tag-alist '(
 		      ("food" . ?f)
+                      ("running" . ?r) ("cycling" . ?c) ("swimming" . ?g) ("health_issue" . ?h)
+                      ("GYM" . ?y)
 		      (:startgroup . nil)
 		      ("breakfast" . ?b) ("lunch" . ?l) ("supper" . ?s)
 		      (:endgroup . nil)
@@ -58,7 +60,7 @@
 		      ("working" . ?w) ("@home" . ?m)
 		      (:endgroup . nil)
 		      (:startgroup . nil)
-		      ("running" . ?r) ("cycling" . ?c) ("swimming" . ?g) ("health_issue" . ?h)
+		      
 		      (:endgroup . nil)
 		      (:startgroup . nil)
 		      ("shopping" . ?p) ("online_shopping" . ?i)
