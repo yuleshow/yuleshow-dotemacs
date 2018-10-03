@@ -99,13 +99,16 @@
   (interactive) 
   (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "HanaMinB")))
 
+(defun my-Gong-Shu () 
+  (interactive) 
+  (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "H-GungSeo")))
 
 (global-set-key (kbd "C-1") 'my-han-ming-Ting)
 (global-set-key (kbd "C-2") 'my-han-ming-GenRyu)
 (global-set-key (kbd "C-3") 'my-han-ming-GenYo)
 (global-set-key (kbd "C-4") 'my-han-sans-Yunlin)
 (global-set-key (kbd "C-5") 'my-han-kai)
-(global-set-key (kbd "C-6") 'my-han-ming-PT)
+(global-set-key (kbd "C-6") 'my-Gong-Shu)
 (global-set-key (kbd "C-7") 'my-han-kangxi)
 (global-set-key (kbd "C-8") 'my-han-HanaMinA)
 (global-set-key (kbd "C-9") 'my-han-HanaMinB)
