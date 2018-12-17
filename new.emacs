@@ -18,7 +18,8 @@
 (if (eq system-type 'darwin) 
     (progn (add-to-list 'load-path "/Users/yuleshow/.emacs.d/personalize_elisp") 
            (add-to-list 'load-path "~/.emacs.d/site-lisp")))
-
+    (add-hook 'after-init-hook 'exec-path-from-shell-initialize)
+    
 (if (eq system-type 'gnu/linux) 
     (progn (add-to-list 'load-path "~/.emacs.d/personalize_elisp") 
            (setq ispell-program-name "/usr/bin/ispell")))
