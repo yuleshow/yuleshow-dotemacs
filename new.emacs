@@ -46,10 +46,10 @@
  '(inhibit-startup-screen t)
  '(org-agenda-files
    (quote
-    ("~/Google_Drive/myDiary/201310.org" "~/Google_Drive/myDiary/201309.org" "~/Google_Drive/myDiary/201305.org" "~/test.org")))
+    ("~/Google_Drive/myDiary/201310.org" "~/Google_Drive/myDiary/201309.org" "~/Google_Drive/myDiary/201305.org" "~/test.org")) t)
  '(package-selected-packages
    (quote
-    (org-ehtml bing-dict youdao-dictionary osx-dictionary helm-wordnet elisp-format decide color-theme-solarized chess better-defaults beacon avk-emacs-themes auto-save-buffers-enhanced auto-complete 2048-game)))
+    (web-beautify html-check-frag org-ehtml bing-dict youdao-dictionary osx-dictionary helm-wordnet elisp-format decide color-theme-solarized chess better-defaults beacon avk-emacs-themes auto-save-buffers-enhanced auto-complete 2048-game)))
  '(quote
    (weblogger-config-alist
     (quote
@@ -163,6 +163,8 @@
 
 (add-hook 'text-mode-hook #'toggle-word-wrap)
 
+
+(require 'yuleshow-command)
 (require 'yuleshow-welcome)
 
 (custom-set-faces
