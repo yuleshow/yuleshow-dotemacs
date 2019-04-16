@@ -1,11 +1,8 @@
-(defun wechat-format ()
-  "One sentence summary of what this command do.
-
-More details here. Be sure to mention the return value if relevant.
-Lines here should not be 門longer than 70 chars,
-and don't indent them."
+(defun han-format-simple ()
 
   (interactive)
+
+  (hanconvert-simple)
   (beginning-of-buffer)
   (newline)
   (beginning-of-buffer)
@@ -13,16 +10,30 @@ and don't indent them."
   (beginning-of-buffer)
   (delete-blank-lines)
   (delete-blank-lines)
-
   (end-of-buffer)
   (delete-blank-lines)
   (delete-blank-lines)
 
-  (hanconvert-to-simple)
-  (let (var1 var2 …)
-    (setq var1 …)
-    (setq var2 …)
-    ;; do something …
-    ))
+  )
+
+(defun han-format-tradition ()
+
+  (interactive)
+
+  (hanconvert-tradition)
+  (beginning-of-buffer)
+  (delete-blank-lines)
+  (beginning-of-buffer)
+  (replace-string "\n\n" "\n")
+  (beginning-of-buffer)
+  (replace-string "　　" "")
+  (end-of-buffer)
+  (delete-blank-lines)
+  (delete-blank-lines)
+
+  )
+
 
 (provide 'yuleshow-command)
+
+

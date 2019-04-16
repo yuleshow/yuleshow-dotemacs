@@ -15,8 +15,8 @@
  ("/home/yuleshow/Desktop/" . "牌九/")
  ("/home/yuleshow/Downloads/shotwell-0.29.3/build/" . "meson-logs/")
  ("/Users/yuleshow/.emacs.d/site-lisp/" . "canji5/")
- ("/home/yuleshow/.emacs.d/site-lisp/" . "canji5/")
- ("/home/yuleshow/.emacs.d/" . "site-lisp/")
+ ("/home/yuleshow/.emacs.d/site-lisp/" . "tongwen-emacs/")
+ ("/home/yuleshow/.emacs.d/" . "personalize_elisp/")
  ("/home/yuleshow/Downloads/" . "shotwell-0.29.3/")
  ("/home/yuleshow/Google_Drive/Dayon66/Writing/" . "讀書/")
  ("/home/yuleshow/Google_Drive/Dayon66/" . "Writing/")
@@ -43,7 +43,7 @@
  ("/Users/" . "yuleshow/")
  ("/Users/yuleshow/Google Drive/Writing/" . "下廚記 VII/")
  ("/home/yuleshow/google_drive/" . "Writing/")
- ("/home/yuleshow/" . "Google_Drive/")
+ ("/home/yuleshow/" . ".emacs.d/")
  ("/Users/yuleshow/Google Drive/writing (1)/" . "美國價值/")
  ("/Users/yuleshow/Google Drive/" . "Writing/")
  ("/Users/yuleshow/Library/Application Support/GitHub Desktop/" . "logs/")
@@ -54,9 +54,11 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/yuleshow/Google_Drive/Writing/上海回憶/"
- "/home/yuleshow/"
  "/home/yuleshow/.emacs.d/personalize_elisp/"
+ "/home/yuleshow/.emacs.d/site-lisp/tongwen-emacs/"
+ "/home/yuleshow/Google_Drive/Writing/上海回憶/"
+ "/home/yuleshow/yuleshow-dotemacs/site-lisp/tongwen-emacs/"
+ "/home/yuleshow/"
  "/home/yuleshow/Google_Drive/Writing/短短他爸/"
  "/home/yuleshow/Google_Drive/myDiary/"
  "/home/yuleshow/.emacs.d/site-lisp/canji5/"
@@ -102,33 +104,39 @@
  "/var/log/"
  "/home/yuleshow/Downloads/shotwell-0.29.3/build/meson-logs/"
  "/home/yuleshow/.emacs.d/"
- "/Users/yuleshow/"
- "/Users/yuleshow/Google_Drive/myDiary/"
 )
 
 ;; ----- ido-work-file-list -----
 (
+ "yuleshow-command.el"
+ "hanconvert.el"
+ "20140820_煙紙店.txt"
+ ".emacs"
+ "20130701_001-打蠟.txt"
+ "hancovert-simple.el"
  "20190321_緣起.txt"
  "20130725_002-冷飲.txt"
- "20130701_001-打蠟.txt"
- ".emacs"
  "yuleshow-evernote.el"
  "yuleshow-fonts.el"
- "yuleshow-command.el"
- "20190413_看電影.txt"
- "上海回憶.org"
- "20190412_油印.txt"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/yuleshow/Google_Drive/Writing/上海回憶/" (23732 53249 527782 879000) "20130725_002-冷飲.txt" "20190402_放電影.txt" "20130701_001-打蠟.txt" "20190321_蒸飯.txt" "20190401_中學往事之五.txt" "20190405_中學往事之八.txt" "../" "20190330_中學往事之四.txt" "20190329_中學往事之二.txt" "20140820_煙紙店.txt" "20190321_緣起.txt" "./" "20190402_中學往事之六.txt" "20190330_中學往事之三.txt" "20190412_油印.txt" "20190329_爆炒米花.txt" "20190404_氣功.txt" "20190405_中學小事.txt" "20190411_公用電話.txt" "7e4c55dcjw1e7v5cca4vqj20gc0cb0ty.jpg" "Yule Show's_" "20190409_校辦工廠.txt" "20140501_西點.txt" "20190413_看電影.txt" "上海回憶.org" "20190328_中學往事.txt" "20190403_中學往事之七.txt" "20190410_校辦工廠（下）.txt")
+ ("/home/yuleshow/.emacs.d/site-lisp/tongwen-emacs/" (23734 6492 123409 131000) "phrase.py" "README.md" "tongwen_conv.py" "conv.py" "chardet/" "../" "word.pyc" "hanconvert-simple.el" "phrase.pyc" "conv.pyc" "./" "word.py" "hanconvert.el")
 
- ("/home/yuleshow/" (23732 53213 834858 141000) "chinese-fonts/" ".xinputrc" "Notebooks/" ".purple/" "#!home!yuleshow!ubuntu-configuration!batch!yuleshow-google.sh#" ".steampath" ".ICEauthority" ".local/" "Documents/" ".gnome2/" ".googleearth/" "aria2/" ".nip2-8.4.0/" ".mime.types" ".steampid" ".smartgit/" ".config/" "Old Home/" "Yule Show's Calibre Folder/" ".emacs" "ubuntu-configuration/" "Applications/" "#!home!yuleshow!Google_Drive!Writing!上海回憶!20190413_看電影.txt#" ".cache/" ".gnupg/" ".emacs.d/" "Pictures/" "Videos/" ".cargo/" " -  - /" "Downloads/" ".ssh/" ".gnome/" "Home Pictures on T430/" "drive_c/" ".profile" ".gphoto/" ".update-timestamp" ".bash_logout" "Ai+WeiWei-lores.pdf" ".java/" "#!home!yuleshow!Google_Drive!Writing!上海回憶!20190412_油印.txt#" ".gtk-bookmarks" "ISO/" "../" ".wine/" "dosdevices/" "yuleshow-dotemacs/" ".thunderbird/" "yuleshow-install.sh" ".ilg-config" ".mozilla/" ".bashrc" ".pki/" ".dbus/" ".sudo_as_admin_successful" ".bash_history" ".audacity-data/" "Desktop/" "Public/" "user.reg" "./" ".cxoffice/" "Templates/" "yuleshow-emacs-backup/" "system.reg" ".ew.json" "VirtualBox VMs/" "Music/" "userdef.reg" ".steam/" "Google_Drive/" ".gitconfig" "examples.desktop" ".adobe/" ".oracle_jre_usage/" ".dvdcss/" "yuleshow-share-to-guest/" ".gconf/" "yuleshow@gmail.com/" ".wget-hsts" ".swt/" "DVD/")
+ ("/home/yuleshow/.emacs.d/" (23734 6926 930297 54000) "site-lisp/" "url/" "ido.last" ".gitignore" "session.10713054468bccf42a153799181958351300000015160072" "session.105c66d0abe2fd79154448330244830100000019320077" "ac-comphist.dat" "session.10936ddbf29c28ceb9154862190512732700000021900088" "recentf" "history" "session.10b1f28f322a66e56c155312642156601700000029430076" "personalize_elisp/" "session.106ce8ca37b136ea2a155060334862292600000022110076" "session.10c28aeff688ba2717154501135715959400000023070075" ".git/" "../" "elpa/" "session.107f44fe222b7008b9155379596713126400000037180078" "eshell/" "yuleshow-dotemacs" "auto-save-list/" "network-security.data" "backups/" "session.106c927bfacc8c818a153730588410848200000013820065" "./" "new.emacs" "session.1027c6150da8222979155148372647084400000022820087" "session.10f43346d99df2462b154786330813069800000023560105" "places")
 
- ("/home/yuleshow/.emacs.d/" (23732 52893 68373 48000) "site-lisp/" "url/" "ido.last" ".gitignore" "session.10713054468bccf42a153799181958351300000015160072" "session.105c66d0abe2fd79154448330244830100000019320077" "ac-comphist.dat" "session.10936ddbf29c28ceb9154862190512732700000021900088" "recentf" "history" "session.10b1f28f322a66e56c155312642156601700000029430076" "personalize_elisp/" "session.106ce8ca37b136ea2a155060334862292600000022110076" "session.10c28aeff688ba2717154501135715959400000023070075" ".git/" "../" "elpa/" "session.107f44fe222b7008b9155379596713126400000037180078" "eshell/" "yuleshow-dotemacs" "auto-save-list/" "network-security.data" "backups/" "session.106c927bfacc8c818a153730588410848200000013820065" "./" "new.emacs" "session.1027c6150da8222979155148372647084400000022820087" "session.10f43346d99df2462b154786330813069800000023560105" "places")
+ ("/home/yuleshow/Google_Drive/Writing/上海回憶/" (23734 6847 223420 746000) "20130725_002-冷飲.txt" "20190402_放電影.txt" "20130701_001-打蠟.txt" "20190321_蒸飯.txt" "20190401_中學往事之五.txt" ".#20190413_看電影.txt" "20190405_中學往事之八.txt" "../" "20190330_中學往事之四.txt" "20190329_中學往事之二.txt" "20140820_煙紙店.txt" "20190321_緣起.txt" "./" "20190402_中學往事之六.txt" "20190330_中學往事之三.txt" "20190412_油印.txt" "20190329_爆炒米花.txt" "20190404_氣功.txt" "20190405_中學小事.txt" "20190411_公用電話.txt" "7e4c55dcjw1e7v5cca4vqj20gc0cb0ty.jpg" "Yule Show's_" "20190409_校辦工廠.txt" "20140501_西點.txt" "20190413_看電影.txt" "上海回憶.org" "20190328_中學往事.txt" "20190403_中學往事之七.txt" "20190410_校辦工廠（下）.txt")
 
- ("/home/yuleshow/.emacs.d/personalize_elisp/" (23732 53179 512214 431000) "yuleshow-fonts.el" "yuleshow-loadpath.el" "yuleshow-require.el" "ac-comphist.dat" "yuleshow-autocomplete.el" "yuleshow-command.el" "macdot.emacs" "yuleshow-color.el" "yuleshow-canji5.el" "yuleshow-fonts.el.old" "yuleshow-defun.el" "history" "yuleshow-encode.el" "yuleshow-weblogger.el" "yuleshow-misc.el" "yuleshow-borrow.el" "../" "yuleshow-wubi.el" "yuleshow-jabber.el" "darwin.emacs.el" "yuleshow-orgmode.el" "yuleshow-keyboard.el" "yuleshow-w3m.el" "./" "yuleshow-welcome.el" "bookmarks" "yuleshow-evernote.el" "yuleshow-weibo.el" "windows.emacs.el")
+ ("/home/yuleshow/.emacs.d/personalize_elisp/" (23734 6818 862409 972000) "yuleshow-fonts.el" "yuleshow-loadpath.el" "yuleshow-require.el" "ac-comphist.dat" "yuleshow-autocomplete.el" "yuleshow-command.el" "macdot.emacs" "yuleshow-color.el" "yuleshow-canji5.el" "yuleshow-fonts.el.old" "yuleshow-defun.el" "history" "yuleshow-encode.el" "yuleshow-weblogger.el" "yuleshow-misc.el" "yuleshow-borrow.el" "../" "yuleshow-wubi.el" "yuleshow-jabber.el" "darwin.emacs.el" "yuleshow-orgmode.el" "yuleshow-keyboard.el" "yuleshow-w3m.el" "./" "yuleshow-welcome.el" "bookmarks" "yuleshow-evernote.el" "yuleshow-weibo.el" "windows.emacs.el")
+
+ ("/home/yuleshow/yuleshow-dotemacs/" (23734 6430 177499 5000) "site-lisp/" "url/" "ido.last" ".gitignore" "session.10713054468bccf42a153799181958351300000015160072" "session.105c66d0abe2fd79154448330244830100000019320077" "ac-comphist.dat" "session.10936ddbf29c28ceb9154862190512732700000021900088" "recentf" "history" "session.10b1f28f322a66e56c155312642156601700000029430076" "personalize_elisp/" "session.106ce8ca37b136ea2a155060334862292600000022110076" "session.10c28aeff688ba2717154501135715959400000023070075" ".git/" "../" "elpa/" "session.107f44fe222b7008b9155379596713126400000037180078" "eshell/" "yuleshow-dotemacs" "auto-save-list/" "network-security.data" "backups/" "session.106c927bfacc8c818a153730588410848200000013820065" "./" "new.emacs" "session.1027c6150da8222979155148372647084400000022820087" "session.10f43346d99df2462b154786330813069800000023560105" "places")
+
+ ("/home/yuleshow/" (23734 6040 279622 634000) "chinese-fonts/" ".xinputrc" "Notebooks/" ".purple/" "#!home!yuleshow!ubuntu-configuration!batch!yuleshow-google.sh#" ".steampath" ".ICEauthority" ".local/" "Documents/" ".gnome2/" ".googleearth/" "aria2/" ".nip2-8.4.0/" ".mime.types" ".steampid" ".smartgit/" ".config/" "Old Home/" "Yule Show's Calibre Folder/" ".emacs" "ubuntu-configuration/" "Applications/" "#!home!yuleshow!Google_Drive!Writing!上海回憶!20190413_看電影.txt#" ".cache/" ".gnupg/" ".emacs.d/" "Pictures/" "Videos/" ".cargo/" " -  - /" "Downloads/" ".ssh/" ".gnome/" "Home Pictures on T430/" "drive_c/" ".profile" ".gphoto/" ".update-timestamp" ".bash_logout" "Ai+WeiWei-lores.pdf" ".java/" "#!home!yuleshow!Google_Drive!Writing!上海回憶!20190412_油印.txt#" ".gtk-bookmarks" "ISO/" "../" ".wine/" "dosdevices/" "yuleshow-dotemacs/" ".thunderbird/" "yuleshow-install.sh" ".ilg-config" ".mozilla/" ".bashrc" ".pki/" ".dbus/" ".sudo_as_admin_successful" ".bash_history" ".audacity-data/" "Desktop/" "Public/" "user.reg" "./" ".cxoffice/" "Templates/" "yuleshow-emacs-backup/" "system.reg" ".ew.json" "VirtualBox VMs/" "Music/" "userdef.reg" ".steam/" "#!home!yuleshow!Google_Drive!Writing!上海回憶!20190321_緣起.txt#" "Google_Drive/" ".gitconfig" "examples.desktop" ".adobe/" ".oracle_jre_usage/" ".dvdcss/" "yuleshow-share-to-guest/" ".gconf/" "yuleshow@gmail.com/" ".wget-hsts" ".swt/" "DVD/")
+
+ ("/home/yuleshow/yuleshow-dotemacs/site-lisp/" (23564 737 792764 76000) "bind-key.el" "hexrgb.el" "tongwen-emacs/" "weblogger.el" "emacs-jabber-0.8.90/" "exec-path-from-shell/" "xml-rpc.el" "emacs-w3m/" "../" "wubi/" "auto-complete-1.3.1.old/" "emacs-jabber-0.8.91/" "init.el" "anything-match-plugin.el" "anything.el" "./" "edit-server.el" "twittering-mode.el" "emacs-jabber-0.8.0/" "yuleshow-canji5.tar.gz" "perl-completion.el" "canji5/" "color-theme-solarized.el" "weibo.emacs/" "emacs-evernote-mode-read-only/" "unicad-1.1.6-beta.tar.gz" "unicad.el")
+
+ ("/home/yuleshow/yuleshow-dotemacs/site-lisp/tongwen-emacs/" (23734 6336 754761 477000) "phrase.py" ".#hanconvert-simple.el" "README.md" "tongwen_conv.py" "conv.py" "chardet/" "../" "word.pyc" "hanconvert-simple.el" "phrase.pyc" "conv.pyc" "./" "word.py" "hanconvert.el")
 
  ("/var/log/" (23732 43593 200027 131000) "alternatives.log.2.gz" "./" "alternatives.log.1" "boot.log" "apport.log.2.gz" "alternatives.log" "vbox-setup.log.2" "minidlna.log.3.gz" "minidlna.log" "minidlna.log.1" "apport.log.4.gz" "auth.log" "lastlog" "auth.log.3.gz" "mail.log.2.gz" "dpkg.log.3.gz" "btmp.1" "syslog.7.gz" "vbox-setup.log.3" "syslog.3.gz" "wtmp" "tallylog" "auth.log.2.gz" "apport.log" "apport.log.6.gz" "apport.log.1" "syslog.5.gz" "dpkg.log" "vbox-setup.log.1" "mail.log.3.gz" "kern.log.4.gz" "alternatives.log.4.gz" "kern.log.3.gz" "dpkg.log.2.gz" "cups/" "kern.log.2.gz" "journal/" "teamviewer14/" "upgrade/" "mail.log.1" "dpkg.log.1" "apport.log.5.gz" "syslog" "vbox-setup.log.4" "fontconfig.log" "kern.log.1" "private/" "syslog.1" "vbox-setup.log" "apport.log.7.gz" "syslog.6.gz" "kern.log" "unattended-upgrades/" "minidlna.log.4.gz" "apt/" "mail.log" "auth.log.4.gz" "speech-dispatcher/" "mail.log.4.gz" "minidlna.log.2.gz" "hp/" "syslog.2.gz" "bootstrap.log" "gdm3/" "auth.log.1" "syslog.4.gz" "btmp" "installer/" "alternatives.log.3.gz" "apport.log.3.gz" "dpkg.log.4.gz" "dist-upgrade/" "gpu-manager.log" "../" "faillog")
 
@@ -141,8 +149,6 @@
  ("/home/yuleshow/Google_Drive/myDiary/" (23729 494 605585 952000) "201606.org" "201701.org" "20160511 1348 IKEA.pdf" "201307(冲突_Yule’s MacBook Pro_2013-07-12 19-06-21).org" "20160524 around.pdf" "201703.org" "2016 move to States.numbers" "20160514 misc 4.jpg" "201605517 Skechers and VONS.pdf" "201808.org" "20151130-1206 Taiwan.xlsx" "201308(冲突_uscc-sample_2013-08-22 16-15-59).org" "201309.org_archive" "20160530-0614.numbers" "201306(1).org" "201403.org" "201401(冲突_Yule’s MacBook Pro_2014-01-23 13-19-35).org" "201308.org" "GPS/" "20160514 misc 3.jpg" "201308(冲突_Yule’s MacBook Pro_2013-08-23 16-47-56).org" "201509.org" "201812.org" "201311.org" "20160501-0504_China.org" "201706.org" "201708.org" "201709.org_archive" "201704.org" "attachments/" "201803.org" "201312.org" "201602.org" "temp.org" "201306.org_archive" "old travel orders/" "201605-06 misc purchase/" "201802.org" "20120702.org" "201702.org" "201605.org" "201609.org" "201805.org" "201806.org" "a 1995 one/" "201710.org" "2222.org" "201512.org" "201602(冲突_yuleshow-VGN-C22CH-P_2016-02-25 16-01-19).org" "201705.org" "201307.org" "201801.org" "20120930-1007_Shanxi.org" "201707.org" "201312(冲突_Yule’s MacBook Pro_2013-12-27 15-55-11).org" "201607.org" "201401.org_archive" "../" "201901.org" "201303-01.org" "201711.org" "20131103_杭州馬拉松.org" "201612.org" "201508_1.org" "PP20050901.pdf" "20160509 Target.pdf" "20120630.org.txt" "201310.org_archive" "20160512 1146 COSTCO.pdf" "201401(冲突_uscc-sample_2014-01-16 15-10-17).org" "2015/" "201306.org" "201810.org" "201904.org" "20151130-1206_Taiwan.org" "201604.org" "201804.org" "201310(冲突_Yule’s MacBook Pro_2013-10-25 13-52-56).org" "20160505-0507 Resettlement purchase.pdf" "20130513-0519_Thailand.org" "201601.org" "201712.org" "201811.org" "201409.org" "20160514 misc.pdf" "201308.org_archive" "201606 purchase.pdf" "201303.org" "201511.org" "./" "201305.org" "20160504 DL186 Shanghai to Los Angeles.pdf" "201402.org" "201306(冲突_Yule’s MacBook Pro_2013-06-17 11-33-45).org" "20120707.org" "201611.org" "201807.org" "201603.org" "201608.org" "201312.org_archive" "201306(冲突_uscc-sample_2013-06-03 14-25-17).org" "20160705-0719_China.org" "201902.org" "201510.org" "20120630-0707.org" "20131103_杭州馬拉松(冲突_uscc-sample_2013-11-22 10-28-47).org" "201309.org" "20160514 misc 5.jpg" "201309-oof.org" "獻戲.txt" "201809.org" "201310-2.org" "201510(冲突_Yule’s MacBook Pro_2015-10-28 14-01-06).org" "201401.org" "201310-1.org" "20160514 misc 2.jpg" "20120629.org" "201709.org" "20160511 IKEA.pdf" "20160516 CVS.pdf" "201705[Conflict].org" "20160406-0430.org" "201612.org_archive" "201508.org" "20120621-0626.org" "20160526 dogtag.pdf" "201310.org" "20140224-0301.org" "201610.org" "201309(冲突_Yule’s MacBook Pro_2013-09-20 15-23-45).org")
 
  ("/home/yuleshow/Google_Drive/Writing/短短他爸/" (23729 6252 449150 987000) "中國農民與美國流浪漢.txt" "說還輯和民科.txt" "../" "./")
-
- ("/home/yuleshow/yuleshow-dotemacs/" (23729 4928 96790 168000) "site-lisp/" "url/" "ido.last" ".gitignore" "session.10713054468bccf42a153799181958351300000015160072" "session.105c66d0abe2fd79154448330244830100000019320077" "ac-comphist.dat" "session.10936ddbf29c28ceb9154862190512732700000021900088" "recentf" "history" "session.10b1f28f322a66e56c155312642156601700000029430076" "personalize_elisp/" "session.106ce8ca37b136ea2a155060334862292600000022110076" "session.10c28aeff688ba2717154501135715959400000023070075" ".git/" "../" "elpa/" "session.107f44fe222b7008b9155379596713126400000037180078" "eshell/" "yuleshow-dotemacs" "auto-save-list/" "network-security.data" "backups/" "session.106c927bfacc8c818a153730588410848200000013820065" "./" "new.emacs" "session.1027c6150da8222979155148372647084400000022820087" "session.10f43346d99df2462b154786330813069800000023560105" "places")
 
  ("/home/yuleshow/.emacs.d/site-lisp/canji5/" (23725 10296 278060 258000) "canji5-rules.el" "canji5.el" "yuleshow-canji5.el" "canji5-rules.elc" "../" "update.el" "wubi.el" "./")
 
@@ -316,12 +322,6 @@
  ("/Users/yuleshow/Google_Drive/Writing/梅玺阁闲话/" (23245 5589 981555 568000) "20170209_假ABC撰文意欲何為.txt" "20170301_西路壽司與政治正確.txt" "014_20120408-买单.txt" "021_20130926-道理.txt" "20170308_地域歧視.txt" "20170304_堅決反對公共場合露奶哺孔（第二彈）.txt" "20170131_莫把同情當道德.txt" "20170425_別用謠言反謠言.txt" "015_20120408-标准.txt" "關於地域歧視.txt" "#021_20130926-道理.txt#" "20170302_堅決反對公共塲合露奶哺乳.txt" "20171121_蹭個熱度聊維秘.txt" "20170303_歧視與偏見.txt" "20121224_讲法.txt" "20170302_關於「抵制的歧視鏈」.txt" "016_20110408-检验.txt" "20171116_關於工作.txt" "017_20130621-立場.txt" "20170208_莫把熱情當才華.txt" "20171001_反對文革式民主.txt" "20130107_态度.txt" "../" "./")
 
  ("/Users/yuleshow/.emacs.d/site-lisp/canji5/" (23246 38873 621927 843000) "wubi.el" "canji5-rules.el" "yuleshow-canji5.el" "canji5.el" "update.el" "canji5.elc" "canji5-rules.elc" "../" "./")
-
- ("/Users/yuleshow/Desktop/Dayon66/Writing/" (23137 10268 270679 572000) "美史今日.org" "赴美生子/" ".DS_Store" "../" "./")
-
- ("/Users/yuleshow/Google_Drive/Writing/其他/" (23092 13673 267070 398000) "20160925_由簡繁之論想到的.txt" "20171215_社會科學民科.txt" "上海話.txt" "20170526_由ADND看亂像.txt" "20161203_好與適合.txt" "20130923_fieldschina.txt" "20131204_酒.txt" "20160104_說人肉搜索.txt" "20160107_公知與民主.txt" "20130822_方太-周末畫報.txt" "#20120625_酒引.txt#" "20170617_昨天凌晨的怪夢.txt" "反毛.txt" "20120625_酒引.txt" "20170516_宇宙的年齡和直徑.txt" "20171015_美國治安.txt" "飯否_20130911-餛飩.txt" "天葬.pdf" "20170517_時間旅行.txt" "20161118_反對「內部殖民」和「北人統治」說.txt" "20170523_愛國賊對駡指南.txt" "20161113_攝影與人權.txt" "20170524_為何打假.txt" "20170303_歧視與偏見.txt" "20131203_TimeOut-年.txt" "20130829_貝太廚房.txt" "20170524_迪斯尼事件.txt" "20170914_駁上海閑話的辣椒觀.txt" "20120625_黄酒.txt" "姚老師.txt" "../" "./")
-
- ("/Users/yuleshow/Google_Drive/Dayon66/Writing/" (23137 10268 270679 572000) "美史今日.org" "赴美生子/" ".DS_Store" "../" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----

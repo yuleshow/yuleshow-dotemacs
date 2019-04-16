@@ -41,28 +41,6 @@
 (eval-when-compile
   (require 'cl))
 
-(defun hanconvert-to (type) 
-  "Use tongwen to convert the file to traditon chinese or simple chinese" 
-  (interactive (list (let ((type (completing-read "Type(default tradition): "
-						  '("simple" "tradition"))))
-                       (if (string< "" type)
-                           (intern type)
-                         'tradition))))
-  (if (eq type 'tradition)
-      (setf type "zht") 
-    (setf type "zhs"))
-  
-  (message type) 
-  
-  (let ((str "")
-	 (dir ""))
-     (setf dir (file-name-directory (locate-library "hanconvert.el")))  
-     (setf str (concat str "python " dir "tongwen_conv.py -t " type  " < " (buffer-file-name))) 
-     (erase-buffer)
-     (setf str (shell-command-to-string str))
-     (insert str) 
-     ))
-
 (defun hanconvert-simple () 
 
 
@@ -81,25 +59,9 @@
      ))
 
 
-(defun hanconvert-tradition () 
 
 
- (interactive)
-    (setf type "zht")
-  
-  (message type) 
-  
-  (let ((str "")
-	 (dir ""))
-     (setf dir (file-name-directory (locate-library "hanconvert.el")))  
-     (setf str (concat str "python " dir "tongwen_conv.py -t " type  " < " (buffer-file-name))) 
-     (erase-buffer)
-     (setf str (shell-command-to-string str))
-     (insert str) 
-     ))
-
-
-(provide 'hanconvert)
+(provide 'hanconvert-simple)
 
 ;;; hanconvert.el ends here
 
