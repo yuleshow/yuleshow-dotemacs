@@ -122,6 +122,36 @@
   (replace-string "<tr><td width=50% valign=\"top\"><p>put a line here</p></td><td width=50% valign=\"top\"> </td></tr>" "</table><hr /><center><h2>华丽丽的分隔线</h2></center><hr /><table border=\"0\" width=100%>")
 
   (beginning-of-buffer)
+  (replace-string "<body dir=\"ltr\">" "<body>
+<center><h1>老波头《川菜平反论》调色盘规范</h1></center>
+
+<h2><font color=\"#ffff00\"><span style=\"background: #ff0000\"><b>红底黄字</b></span></font></h2>
+表示与原文一模一样，一字未改
+<h2><font color=\"#ffffff\"><span style=\"background: #ff0000\"><b>红底白字</b></span></font></h2>
+与原文一样，但在语句中的次序被改变了，如：<br />
+姜（拍松）改成：拍松的姜，标前置移动词语，即拍松的姜
+<h2><font color=\"#ffff00\"><span style=\"background: #000000\"><b>黑底黄字</b></span></font></h2>
+同义动词、副词的改变，计量单位改变，其它同义词，垫虚词，如（皆实例）：<br />
+小时，三十分钟：全书把原书所有的“小时”、“三十分钟”改成了“钟头”、“半个钟头”，共计35次<br />
+旺火，改成了：猛火，全书把原书所有的“旺火”改成了“猛火”，共计44次<br />
+按上法，改成了：照此法<br />
+冬天、夏天，改成了：冬季、夏季<br />
+盛于，改成了：装在<br />
+另，改成了：另边厢（这写文章也太容易了吧？哪怕这三字也是抄蔡澜的，全书22次）<br />
+炒一炒，改成了：兜一兜<br />
+姜葱，改成：葱姜<br />
+葱姜，改成：姜葱<br />
+茸，改成：蓉<br />
+二，改成：两<br />
+<h2><font color=\"#ffffff\"><span style=\"background: #000000\"><b>黑底白字</b></span></font></h2>
+同黑底黄字，同时又被改变了次序
+<hr />
+<h2>以下，左列未特殊标明的，比出自《中国菜谱 四川》，右列均出自《川菜平反论》</h2>
+<hr />")
+
+  (beginning-of-buffer)
+
+
   )
 
 (provide 'yuleshow-command)
