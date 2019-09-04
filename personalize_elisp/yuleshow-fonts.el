@@ -111,6 +111,12 @@
   (interactive) 
   (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "MingLiU")))
 
+(defun my-han-NotoSerif () 
+  (interactive) 
+  (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "Noto Serif CJK TC")))
+
+
+
 (defun my-WenYue () 
   (interactive) 
   (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "WenYue GuDianMingChaoTi (Non-Commercial Use) W5")))
@@ -122,7 +128,7 @@
 (global-set-key (kbd "C-4") 'my-han-sans-Yunlin)
 (global-set-key (kbd "C-5") 'my-han-kai)
 (global-set-key (kbd "C-6") 'my-Gong-Shu)
-(global-set-key (kbd "C-7") 'my-han-kangxi)
+(global-set-key (kbd "C-7") 'my-han-NotoSerif)
 (global-set-key (kbd "C-8") 'my-han-HanaMinA)
 (global-set-key (kbd "C-9") 'my-WenYue)
 
