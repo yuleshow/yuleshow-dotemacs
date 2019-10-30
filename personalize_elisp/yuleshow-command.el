@@ -1,3 +1,16 @@
+(defun mp3tag ()
+  (interactive)
+  (hanconvert-tradition)
+  (beginning-of-buffer)
+  (replace-string ".mp3" "")
+  (beginning-of-buffer)
+  (replace-string ".m4a" "")
+  (beginning-of-buffer)
+  (replace-string "  " " ")
+  (save-buffer)
+
+  )
+
 (defun han-format-simple ()
 
   (interactive)
