@@ -1,168 +1,168 @@
-((("Background-color" .
+((("my-han-NotoSerif" .
    [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
-  ("Background" .
-   [0 0 0 0 2 0 0 0 0 0])
-  ("substr" .
-   [1 0 0 0 0 0])
-  ("back" .
-   [1 0 0 0])
-  ("front" .
-   [1 0 0 0 0])
-  ("index" .
-   [1 0 0 0 0])
-  ("lastline" .
-   [4 0 0 0 0 0 0 0])
-  ("if" .
-   [2 0])
-  ("chomp" .
-   [2 0 0 0 0])
-  ("inline" .
-   [6 0 0 0 0 0])
-  ("FILE" .
-   [3 0 0 0])
-  ("times" .
-   [9 0 0 0 0])
-  ("second" .
-   [3 0 0 0 0 0])
-  ("secondtile" .
-   [6 0 0 0 0 0 2 0 0 0])
-  ("first" .
-   [4 0 0 0 0])
-  ("rand" .
-   [1 0 0 0])
-  ("int" .
+  ("replace-string" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("rm" .
+   [1 0])
+  ("<h1>掛枝兒</h1>" .
+   [0 0 0 0 1 0 0 0 0 0 0 0])
+  ("for" .
    [1 0 0])
-  ("tile" .
-   [12 0 0 0])
-  ("while" .
-   [2 0 0 0 0])
-  ("seed" .
-   [6 0 0 0])
-  ("master.zip" .
-   [0 0 0 0 0 0 1 0 0 0])
-  ("~/ubuntu-configuration/batch/yuleshow-virtualbox.sh" .
-   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("my-ascii-ToxTypewriter" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
-  ("my-ascii-Courier" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("~/ubuntu-configuration/batch/yuleshow-whatever.sh" .
-   [0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("verb" .
-   [1 0 0 0])
-  ("finite" .
-   [1 0 0 0 0 0])
-  ("imperative" .
-   [1 0 0 0 0 0 0 0 0 0])
-  ("clause" .
-   [1 0 0 0 0 0])
-  ("sentence-end" .
-   [0 0 0 0 0 0 0 0 1 0 0 0])
-  ("exec-path" .
-   [0 0 0 0 0 0 0 1 1])
-  ("load-path" .
-   [1 0 0 0 0 0 0 0 0])
-  ("man" .
-   [1 0 0])
-  ("my-ascii-SourceCode" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
-  ("my-ascii-Ubuntu-Mono" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("require" .
+  ("~/aria2" .
    [1 0 0 0 0 0 0])
-  ("switch-frame" .
-   [0 0 0 0 0 0 0 0 1 0 0 0])
-  ("insert" .
-   [9 0 0 0 0 0])
-  ("*Welcome*" .
-   [0 0 1 0 0 0 0 0 0])
-  ("message" .
-   [2 0 0 0 0 0 0])
-  ("kbd" .
-   [6 0 0])
-  ("youdao-dictionary-search-at-point-tooltip" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 2])
-  ("c" .
-   [2])
-  ("print" .
-   [18 0 0 0 0])
-  ("add-to-list" .
-   [3 0 0 0 0 0 0 0 0 0 0])
-  ("load" .
+  ("ubuntu-configuration/aria2/aria2.conf" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("yuleshow-install.sh" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("ubuntu-configuration/bin/*" .
+   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("~/.bashrc:" .
+   [0 0 0 1 0 0 0 0 0 0])
+  ("my-Gong-Shu" .
+   [0 0 0 0 0 0 0 1 0 0 0])
+  ("install" .
+   [5 0 0 0 0 0 0])
+  ("apt" .
+   [5 0 0])
+  ("sudo" .
+   [7 0 0 0])
+  ("-y" .
+   [5 0])
+  ("command_line" .
+   [0 0 1 0 0 0 0 0 0 0 0 0])
+  ("arg" .
+   [1 0 0])
+  ("filename" .
+   [1 0 0 0 0 0 0 0])
+  ("pm_files" .
+   [0 0 0 1 0 0 0 0])
+  ("realise" .
+   [1 0 0 0 0 0 0])
+  ("my-han-ming-PT" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("last" .
+   [1 0 0 0])
+  ("count" .
+   [1 0 0 0 0])
+  ("LaTeX" .
+   [0 0 0 0 1])
+  ("my-ascii-Georgia" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("my-ascii-TNR" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("iso-ascii" .
+   [0 0 0 0 0 1 0 0 0])
+  ("insertline" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("output-line" .
+   [0 0 0 0 1 0 2 1 0 0 0])
+  ("get-buffer" .
+   [1 0 0 0 0 0 2 0 0 0])
+  ("get" .
+   [1 0 0])
+  ("out-line" .
+   [3 0 0 0 0 0 0 0])
+  ("setq" .
+   [2 0 0 0])
+  ("switch-to-buffer" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("global-set-key" .
+   [4 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("die" .
+   [0 0 3])
+  ("goto" .
    [2 0 0 0])
   ("set" .
    [3 0 0])
-  ("goto" .
+  ("load" .
    [2 0 0 0])
-  ("die" .
-   [0 0 3])
-  ("global-set-key" .
-   [4 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("switch-to-buffer" .
-   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
-  ("setq" .
-   [2 0 0 0])
-  ("out-line" .
-   [3 0 0 0 0 0 0 0])
-  ("get" .
+  ("add-to-list" .
+   [3 0 0 0 0 0 0 0 0 0 0])
+  ("print" .
+   [18 0 0 0 0])
+  ("c" .
+   [2])
+  ("youdao-dictionary-search-at-point-tooltip" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 2])
+  ("kbd" .
+   [6 0 0])
+  ("message" .
+   [2 0 0 0 0 0 0])
+  ("*Welcome*" .
+   [0 0 1 0 0 0 0 0 0])
+  ("insert" .
+   [9 0 0 0 0 0])
+  ("switch-frame" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("require" .
+   [1 0 0 0 0 0 0])
+  ("my-ascii-Ubuntu-Mono" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("my-ascii-SourceCode" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("man" .
    [1 0 0])
-  ("get-buffer" .
-   [1 0 0 0 0 0 2 0 0 0])
-  ("output-line" .
-   [0 0 0 0 1 0 2 1 0 0 0])
-  ("insertline" .
+  ("load-path" .
+   [1 0 0 0 0 0 0 0 0])
+  ("exec-path" .
+   [0 0 0 0 0 0 0 1 1])
+  ("sentence-end" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("clause" .
+   [1 0 0 0 0 0])
+  ("imperative" .
    [1 0 0 0 0 0 0 0 0 0])
-  ("iso-ascii" .
-   [0 0 0 0 0 1 0 0 0])
-  ("my-ascii-TNR" .
-   [1 0 0 0 0 0 0 0 0 0 0 0])
-  ("my-ascii-Georgia" .
-   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("LaTeX" .
-   [0 0 0 0 1])
-  ("count" .
-   [1 0 0 0 0])
-  ("last" .
+  ("finite" .
+   [1 0 0 0 0 0])
+  ("verb" .
    [1 0 0 0])
-  ("my-han-ming-PT" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 1 0])
-  ("realise" .
-   [1 0 0 0 0 0 0])
-  ("pm_files" .
-   [0 0 0 1 0 0 0 0])
-  ("filename" .
-   [1 0 0 0 0 0 0 0])
-  ("arg" .
-   [1 0 0])
-  ("command_line" .
-   [0 0 1 0 0 0 0 0 0 0 0 0])
-  ("-y" .
-   [5 0])
-  ("sudo" .
+  ("~/ubuntu-configuration/batch/yuleshow-whatever.sh" .
+   [0 0 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("my-ascii-Courier" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("my-ascii-ToxTypewriter" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0])
+  ("~/ubuntu-configuration/batch/yuleshow-virtualbox.sh" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("master.zip" .
+   [0 0 0 0 0 0 1 0 0 0])
+  ("seed" .
    [6 0 0 0])
-  ("apt" .
-   [5 0 0])
-  ("install" .
-   [5 0 0 0 0 0 0])
-  ("my-Gong-Shu" .
-   [0 0 0 0 0 0 0 1 0 0 0])
-  ("~/.bashrc:" .
-   [0 0 0 1 0 0 0 0 0 0])
-  ("ubuntu-configuration/bin/*" .
-   [0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("yuleshow-install.sh" .
-   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
-  ("ubuntu-configuration/aria2/aria2.conf" .
-   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
-  ("~/aria2" .
-   [1 0 0 0 0 0 0])
-  ("for" .
+  ("while" .
+   [2 0 0 0 0])
+  ("tile" .
+   [12 0 0 0])
+  ("int" .
    [1 0 0])
-  ("<h1>掛枝兒</h1>" .
-   [0 0 0 0 1 0 0 0 0 0 0 0])
-  ("rm" .
-   [1 0])
-  ("replace-string" .
-   [0 0 0 0 0 0 0 0 0 0 0 0 0 1])
-  ("my-han-NotoSerif" .
+  ("rand" .
+   [1 0 0 0])
+  ("first" .
+   [4 0 0 0 0])
+  ("secondtile" .
+   [6 0 0 0 0 0 2 0 0 0])
+  ("second" .
+   [3 0 0 0 0 0])
+  ("times" .
+   [9 0 0 0 0])
+  ("FILE" .
+   [3 0 0 0])
+  ("inline" .
+   [6 0 0 0 0 0])
+  ("chomp" .
+   [2 0 0 0 0])
+  ("if" .
+   [2 0])
+  ("lastline" .
+   [4 0 0 0 0 0 0 0])
+  ("index" .
+   [1 0 0 0 0])
+  ("front" .
+   [1 0 0 0 0])
+  ("back" .
+   [1 0 0 0])
+  ("substr" .
+   [1 0 0 0 0 0])
+  ("Background" .
+   [0 0 0 0 2 0 0 0 0 0])
+  ("Background-color" .
    [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])))
