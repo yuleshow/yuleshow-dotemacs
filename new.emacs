@@ -166,7 +166,7 @@
 
 (add-hook 'text-mode-hook #'toggle-word-wrap)
 
-
+(setq python-shell-interpreter "python3") 
 (require 'yuleshow-command)
 (require 'yuleshow-welcome)
 

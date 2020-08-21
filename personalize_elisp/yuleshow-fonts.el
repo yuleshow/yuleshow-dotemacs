@@ -84,6 +84,10 @@
   (interactive) 
   (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "Yunlin Sans")))
 
+(defun my-han-mssongkai () 
+  (interactive) 
+  (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "MS Song")))
+
 (defun my-han-ming-PT () 
   (interactive) 
   (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "菩提細明")))
@@ -99,6 +103,7 @@
 (defun my-han-HanaMinA () 
   (interactive) 
   (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "HanaMinA")))
+
 (defun my-han-HanaMinB () 
   (interactive) 
   (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "HanaMinB")))
@@ -121,11 +126,12 @@
   (interactive) 
   (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "WenYue GuDianMingChaoTi (Non-Commercial Use) W5")))
 
-; (global-set-key (kbd "C-1") 'my-han-ming-Ting)
+                                        ; (global-set-key (kbd "C-1") 'my-han-ming-Ting)
 (global-set-key (kbd "C-1") 'my-han-MingLiU)
 (global-set-key (kbd "C-2") 'my-han-ming-GenRyu)
 (global-set-key (kbd "C-3") 'my-han-SentyWen)
-(global-set-key (kbd "C-4") 'my-han-sans-Yunlin)
+                                        ; (global-set-key (kbd "C-4") 'my-han-sans-Yunlin)
+(global-set-key (kbd "C-4") 'my-han-mssongkai)
 (global-set-key (kbd "C-5") 'my-han-kai)
 (global-set-key (kbd "C-6") 'my-Gong-Shu)
 (global-set-key (kbd "C-7") 'my-han-NotoSerif)
