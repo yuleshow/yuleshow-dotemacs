@@ -10,7 +10,7 @@
 ;; installed packages.  Don't delete this line.  If you don't want it,
 ;; just comment it out by adding a semicolon to the start of the line.
 ;; You may delete these explanatory comments.
-(package-initialize)
+;; (package-initialize)
 
 (if (eq system-type 'windows-nt) 
     (progn (add-to-list 'load-path "~/dotemacs/")))
@@ -49,7 +49,7 @@
     ("~/Google_Drive/myDiary/201310.org" "~/Google_Drive/myDiary/201309.org" "~/Google_Drive/myDiary/201305.org" "~/test.org")) t)
  '(package-selected-packages
    (quote
-    (web-beautify html-check-frag org-ehtml bing-dict youdao-dictionary osx-dictionary helm-wordnet elisp-format decide color-theme-solarized chess better-defaults beacon avk-emacs-themes auto-save-buffers-enhanced auto-complete 2048-game)))
+    (pdf-tools web-beautify html-check-frag org-ehtml bing-dict youdao-dictionary osx-dictionary helm-wordnet elisp-format decide color-theme-solarized chess better-defaults beacon avk-emacs-themes auto-save-buffers-enhanced auto-complete 2048-game)))
  '(quote
    (weblogger-config-alist
     (quote
@@ -175,5 +175,5 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- )
+ '(default ((t (:family "KaiXinSongA" :foundry "    " :slant normal :weight normal :height 128 :width normal)))))
 (put 'set-goal-column 'disabled nil)

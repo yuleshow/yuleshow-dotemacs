@@ -11,7 +11,8 @@
   "Set font to a variable width (proportional) fonts in current buffer" 
   (interactive)
   ;;  (setq buffer-face-mode-face '(:family "MingLiU" :height 100 :width semi-condensed))
-  (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "AR PL UKai CN"))
+   (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "AR PL UKai CN"))
+
   ;; (setq buffer-face-mode-face
   ;;       '(:family "AR PL UKai CN"
   ;;                 :height 100
@@ -118,13 +119,16 @@
 
 (defun my-han-NotoSerif () 
   (interactive) 
-  (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "Noto Serif CJK TC")))
+  (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "Noto Serif CJK SC")))
 
 
 
 (defun my-WenYue () 
   (interactive) 
   (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "WenYue GuDianMingChaoTi (Non-Commercial Use) W5")))
+
+
+
 
                                         ; (global-set-key (kbd "C-1") 'my-han-ming-Ting)
 (global-set-key (kbd "C-1") 'my-han-MingLiU)
