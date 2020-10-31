@@ -11,20 +11,22 @@
   "Set font to a variable width (proportional) fonts in current buffer" 
   (interactive)
   ;;  (setq buffer-face-mode-face '(:family "MingLiU" :height 100 :width semi-condensed))
-   (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "AR PL UKai CN"))
+;; 這裡   (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "AR PL UKai CN"))
 
   ;; (setq buffer-face-mode-face
   ;;       '(:family "AR PL UKai CN"
   ;;                 :height 100
   ;;                 :width semi-condensed))
   ;;(buffer-face-mode)
-  (set-fontset-font (frame-parameter nil 'font) 'ascii (font-spec :family "Consolas")))
+  ;; 這裡 (set-fontset-font (frame-parameter nil 'font) 'ascii (font-spec :family "Consolas"))
+
+  )
 
 ;; Use monospaced font faces in current buffer
 (defun my-buffer-face-mode-fixed () 
   "Sets a fixed width (monospace) font in current buffer" 
   (interactive) 
-  (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "GenRyuMin TW"))
+;; 這裡  (set-fontset-font (frame-parameter nil 'font) 'han (font-spec :family "GenRyuMin TW"))
   ;; (set-fontset-font (frame-parameter nil 'font)
   ;;                'ascii (font-spec :family "Inconsolata"
   ;;                                ))
