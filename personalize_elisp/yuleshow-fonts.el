@@ -213,14 +213,24 @@
   (custom-set-faces
    '(default ((t (:family "Anonymous Pro" :foundry "mlss" :slant normal :weight normal :height 102 :width normal)))))
   )
+
+(defun my-ascii-Hack () 
+  (interactive)
+  (custom-set-faces
+   '(default ((t (:family "Hack" :foundry "mlss" :slant normal :weight normal :height 102 :width normal)))))
+  )
+
 (defun my-ascii-SourceCode () 
   (interactive)
   (custom-set-faces
-   ;; custom-set-faces was added by Custom.
-   ;; If you edit it by hand, you could mess it up, so be careful.
-   ;; Your init file should contain only one such instance.
-   ;; If there is more than one, they won't work right.
    '(default ((t (:family "Source Code Variable" :foundry "ADBO" :slant normal :weight normal :height 102 :width normal)))))
+  )
+
+
+(defun my-ascii-SourceCodePro () 
+  (interactive)
+  (custom-set-faces
+   '(default ((t (:family "Source Code Pro" :foundry "ADBO" :slant normal :weight normal :height 102 :width normal)))))
   )
 
 (defun my-ascii-Courier () 
@@ -241,8 +251,9 @@
 ;;  (global-set-key (kbd "M-6") 'my-ascii-DejaVu-Mono)
 (global-set-key (kbd "M-6") 'my-ascii-ToxTypewriter)
 (global-set-key (kbd "M-7") 'my-ascii-AnonymousPro)
-(global-set-key (kbd "M-8") 'my-ascii-SourceCode)
+(global-set-key (kbd "M-8") 'my-ascii-SourceCodePro)
 (global-set-key (kbd "M-9") 'my-ascii-Courier)
+(global-set-key (kbd "M-0") 'my-ascii-Hack)
 
 
 
