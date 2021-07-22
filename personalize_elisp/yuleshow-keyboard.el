@@ -33,6 +33,7 @@
 
                                         ;(global-set-key (kbd "C-x o") 'open-dotemacs-file)
 (global-set-key (kbd "C-x o") 'open-custom-file)
+(global-set-key (kbd "C-x g") 'goldendict-dwim)
 
 
 

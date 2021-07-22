@@ -45,15 +45,12 @@
  '(font-use-system-font t)
  '(inhibit-startup-screen t)
  '(org-agenda-files
-   (quote
-    ("~/Google_Drive/myDiary/201310.org" "~/Google_Drive/myDiary/201309.org" "~/Google_Drive/myDiary/201305.org" "~/test.org")) t)
+   '("~/Google_Drive/myDiary/201310.org" "~/Google_Drive/myDiary/201309.org" "~/Google_Drive/myDiary/201305.org" "~/test.org") t)
  '(package-selected-packages
-   (quote
-    (pdf-tools web-beautify html-check-frag org-ehtml bing-dict youdao-dictionary osx-dictionary helm-wordnet elisp-format decide color-theme-solarized chess better-defaults beacon avk-emacs-themes auto-save-buffers-enhanced auto-complete 2048-game)))
+   '(goldendict pdf-tools web-beautify html-check-frag org-ehtml bing-dict youdao-dictionary osx-dictionary helm-wordnet elisp-format decide color-theme-solarized chess better-defaults beacon avk-emacs-themes auto-save-buffers-enhanced auto-complete 2048-game))
  '(quote
    (weblogger-config-alist
-    (quote
-     (("default" "http://www.yuleshow.com/wordpress/xmlrpc.php" "Yule Show" "" "1")))))
+    '(("default" "http://www.yuleshow.com/wordpress/xmlrpc.php" "Yule Show" "" "1"))))
  '(recentf-max-menu-items 15)
  '(savehist-mode t)
  '(show-paren-mode t)
