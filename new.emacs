@@ -41,13 +41,15 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
+ '(custom-safe-themes
+   '("20e23cba00cf376ea6f20049022241c02a315547fc86df007544852c94ab44cb" "60d4556ebff0dc94849f177b85dcb6956fe9bd394c18a37e339c0fcd7c83e4a9" default))
  '(display-time-mode t)
  '(font-use-system-font t)
  '(inhibit-startup-screen t)
  '(org-agenda-files
-   '("~/Google_Drive/myDiary/201310.org" "~/Google_Drive/myDiary/201309.org" "~/Google_Drive/myDiary/201305.org" "~/test.org") t)
+   '("~/Google_Drive/myDiary/201310.org" "~/Google_Drive/myDiary/201309.org" "~/Google_Drive/myDiary/201305.org" "~/test.org"))
  '(package-selected-packages
-   '(goldendict pdf-tools web-beautify html-check-frag org-ehtml bing-dict youdao-dictionary osx-dictionary helm-wordnet elisp-format decide color-theme-solarized chess better-defaults beacon avk-emacs-themes auto-save-buffers-enhanced auto-complete 2048-game))
+   '(org-journal wiki-summary org-journal-list goldendict pdf-tools web-beautify html-check-frag org-ehtml bing-dict youdao-dictionary osx-dictionary helm-wordnet elisp-format decide color-theme-solarized chess better-defaults beacon avk-emacs-themes auto-save-buffers-enhanced auto-complete 2048-game))
  '(quote
    (weblogger-config-alist
     '(("default" "http://www.yuleshow.com/wordpress/xmlrpc.php" "Yule Show" "" "1"))))
@@ -174,3 +176,4 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "KaiXinSongA" :foundry "    " :slant normal :weight normal :height 128 :width normal)))))
 (put 'set-goal-column 'disabled nil)
+(global-set-key (kbd "s-j") 'org-journal-list--start)

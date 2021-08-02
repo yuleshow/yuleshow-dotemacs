@@ -24214,6 +24214,5 @@
 ("fhsf" ["𤒘"])
 ("0" ["0" "〇"])
 ("oooo" ["ō"])
-
+("zw" ["https://zh.wikipedia.org/wiki/"])
 )
-

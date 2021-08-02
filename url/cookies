@@ -4,7 +4,11 @@
 (setq url-cookie-storage
  'nil)
 (setq url-cookie-secure-storage
- 'nil)
+ '(("en.wikipedia.org"
+  [url-cookie "WMF-Last-Access" "30-Jul-2021" "Tue, 31 Aug 2021 12:00:00 GMT" "/" "en.wikipedia.org" t])
+ (".wikipedia.org"
+  [url-cookie "WMF-Last-Access-Global" "30-Jul-2021" "Tue, 31 Aug 2021 12:00:00 GMT" "/" ".wikipedia.org" t]))
+)
 
 ;; Local Variables:
 ;; version-control: never
