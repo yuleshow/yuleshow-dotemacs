@@ -1,4 +1,12 @@
-((("~/ubuntu-configuration/batch/yuleshow-begin.sh" .
-   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+((("install" .
+   [1 0 0 0 0 0 0])
+  ("apt" .
+   [1 0 0])
+  ("sudo" .
+   [1 0 0 0])
+  ("~/ubuntu-configuration/batch/yuleshow-begin.sh" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 \.\.\.])
   ("question" .
-   [0 0 1 0 0 1 0 0])))
+   [0 0 1 0 0 1 0 0])
+  ("windows-nt" .
+   [0 0 0 0 0 0 0 0 1 0])))

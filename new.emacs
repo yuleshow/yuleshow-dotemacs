@@ -13,7 +13,7 @@
 ;; (package-initialize)
 
 (if (eq system-type 'windows-nt) 
-    (progn (add-to-list 'load-path "~/dotemacs/")))
+    (progn (add-to-list 'load-path "~/.emacs.dpersonalize_elisp/")))
 
 (if (eq system-type 'darwin) 
     (progn (add-to-list 'load-path "/Users/yuleshow/.emacs.d/personalize_elisp") 
@@ -24,9 +24,9 @@
     (progn (add-to-list 'load-path "~/.emacs.d/personalize_elisp") 
            (setq ispell-program-name "/usr/bin/ispell")))
 
-(if (eq system-type 'windows-nt) 
-    (progn (add-to-list 'load-path "~/dotemacs/") 
-           (require 'windows.emacs)))
+;; (if (eq system-type 'windows-nt) 
+;;   (progn (add-to-list 'load-path "~/dotemacs/") 
+;;           (require 'windows.emacs)))
 
 (if (eq system-type 'darwin) 
 ;;    (progn (add-to-list 'load-path "~/.emacs.d/")
@@ -61,7 +61,7 @@
 ;;  (beacon-mode 1)
 ;; (require 'package)
 ;; (add-to-list 'package-archives '("marmalade" . "https://marmalade-repo.org/packages/"))
-;; (add-to-list 'load-path "~/.emacs.d/site-lisp")
+(add-to-list 'load-path "~/.emacs.d/site-lisp")
 (require 'unicad)
 
 (add-to-list 'load-path "~/.emacs.d/site-lisp/tongwen-emacs")

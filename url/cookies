@@ -2,12 +2,18 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- 'nil)
+ '(("www.yuleshow.com"
+  [url-cookie "apbct_urls" "%7B%22www.yuleshow.com%5C%2F%22%3A%5B1628478925%2C1628480361%2C1628480365%5D%2C%22www.yuleshow.com%5C%2F%3Fp%3D9225%22%3A%5B1628478947%5D%2C%22www.yuleshow.com%5C%2F%3Fp%3D9235%22%3A%5B1628480374%5D%7D" "Thu Aug 12 03:39:34 2021 GMT" "/" "www.yuleshow.com" nil]
+  [url-cookie "apbct_site_referer" "UNKNOWN" "Thu Aug 12 03:39:24 2021 GMT" "/" "www.yuleshow.com" nil]
+  [url-cookie "ct_sfw_pass_key" "ffb51b33d11b78a18211d404a0b81e420" "Wed Sep 08 03:15:28 2021 GMT" "/" "www.yuleshow.com" nil]))
+)
 (setq url-cookie-secure-storage
- '(("en.wikipedia.org"
-  [url-cookie "WMF-Last-Access" "30-Jul-2021" "Tue, 31 Aug 2021 12:00:00 GMT" "/" "en.wikipedia.org" t])
- (".wikipedia.org"
-  [url-cookie "WMF-Last-Access-Global" "30-Jul-2021" "Tue, 31 Aug 2021 12:00:00 GMT" "/" ".wikipedia.org" t]))
+ '((".wikipedia.org"
+  [url-cookie "WMF-Last-Access-Global" "30-Jul-2021" "Tue, 31 Aug 2021 12:00:00 GMT" "/" ".wikipedia.org" t])
+ (".wechat.com"
+  [url-cookie "mm_lang" "en" "Mon, 09-Aug-2021 15:42:38 GMT" "/" ".wechat.com" t])
+ ("en.wikipedia.org"
+  [url-cookie "WMF-Last-Access" "30-Jul-2021" "Tue, 31 Aug 2021 12:00:00 GMT" "/" "en.wikipedia.org" t]))
 )
 
 ;; Local Variables:
