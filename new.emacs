@@ -177,3 +177,5 @@
  '(default ((t (:family "KaiXinSongA" :foundry "    " :slant normal :weight normal :height 128 :width normal)))))
 (put 'set-goal-column 'disabled nil)
 (global-set-key (kbd "s-j") 'org-journal-list--start)
+
+

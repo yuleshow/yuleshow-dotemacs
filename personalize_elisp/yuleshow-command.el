@@ -1,3 +1,27 @@
+(defun imghtml (theyear)
+  (interactive "sPlease input a year: ")
+  (beginning-of-buffer)
+  (newline)
+  (replace-string "\n" (concat "\" />\n<img src=\"/images/" theyear "/"))
+  
+  )
+
+(defun insert-current-file-name-at-point (&optional full-path)
+  "Insert the current filename at point.
+With prefix argument, use full path."
+  (interactive "P")
+  (let* ((buffer
+	  (if (minibufferp)
+	      (window-buffer
+	       (minibuffer-selected-window))
+	    (current-buffer)))
+	 (filename (buffer-file-name buffer)))
+    (if filename
+	(insert (if full-path filename (file-name-nondirectory filename)))
+      (error (format "Buffer %s is not visiting a file" (buffer-name buffer))))))
+
+(global-set-key (kbd "M-n") #'insert-current-file-name-at-point)
+
 (defun mp3tag ()
   (interactive)
   (hanconvert-tradition)
