@@ -434,6 +434,20 @@ With prefix argument, use full path."
 
   )
 
+
+(defun txt-srt ()
+  (interactive)
+
+  (beginning-of-buffer)
+  (replace-string "	" "")
+
+  (beginning-of-buffer)  
+  (replace-string "^j" "\n")
+
+  (beginning-of-buffer)
+
+  )
+
 (provide 'yuleshow-command)
 
 
