@@ -448,6 +448,15 @@ With prefix argument, use full path."
 
   )
 
+(defun remove-chinese-text-and-parentheses ()
+  (interactive)
+  (beginning-of-buffer)
+  (while (search-forward "（" nil t)
+    (replace-match "" nil nil)
+    (let ((start (point)))
+      (when (search-forward "）" nil t)
+        (delete-region start (point))))))
+
 (provide 'yuleshow-command)
 
 
