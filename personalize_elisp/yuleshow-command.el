@@ -457,6 +457,15 @@ With prefix argument, use full path."
       (when (search-forward "）" nil t)
         (delete-region start (point))))))
 
+(defun my-cut-to-clipboard ()
+  "Cut selected text to the clipboard"
+  (interactive)
+  (if (use-region-p)
+      (kill-region (region-beginning) (region-end))
+    (message "No region selected!")))
+
+(global-set-key (kbd "M-x") 'my-cut-to-clipboard)
+
 (provide 'yuleshow-command)
 
 
