@@ -464,6 +464,18 @@ With prefix argument, use full path."
       (kill-region (region-beginning) (region-end))
     (message "No region selected!")))
 
+(defun convert-buffer-to-traditional-chinese ()
+  "用 OpenCC 將當前 buffer 的簡體中文轉換為繁體中文（使用 s2tw.json）。"
+  (interactive)
+  (let ((orig-point (point)))
+    (save-excursion
+      (shell-command-on-region (point-min) (point-max)
+                               "opencc -c s2tw.json"
+                               (current-buffer) t))
+    (goto-char orig-point)
+    (message "✅ 已轉換為繁體中文")))
+
+
 (global-set-key (kbd "M-x") 'my-cut-to-clipboard)
 
 (provide 'yuleshow-command)
