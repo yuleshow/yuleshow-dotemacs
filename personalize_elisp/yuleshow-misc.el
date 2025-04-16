@@ -3,6 +3,7 @@
 
 (auto-image-file-mode t)
 
+(global-display-line-numbers-mode t)
 
 ;; (setq browse-url-generic-program (executable-find "google-chrome"))
 ;;(setq browse-url-generic-program (executable-find "chrome"))
