@@ -33,30 +33,11 @@
       (require 'darwin.emacs))
 
 
-(require 'yuleshow-require)
+(require 'makesure-require)
 
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(column-number-mode t)
- '(custom-safe-themes
-   '("20e23cba00cf376ea6f20049022241c02a315547fc86df007544852c94ab44cb" "60d4556ebff0dc94849f177b85dcb6956fe9bd394c18a37e339c0fcd7c83e4a9" default))
- '(display-time-mode t)
- '(font-use-system-font t)
- '(inhibit-startup-screen t)
- '(org-agenda-files
-   '("~/Google_Drive/myDiary/201310.org" "~/Google_Drive/myDiary/201309.org" "~/Google_Drive/myDiary/201305.org" "~/test.org"))
- '(package-selected-packages
-   '(org-journal wiki-summary org-journal-list goldendict pdf-tools web-beautify html-check-frag org-ehtml bing-dict youdao-dictionary osx-dictionary helm-wordnet elisp-format decide color-theme-solarized chess better-defaults beacon avk-emacs-themes auto-save-buffers-enhanced auto-complete 2048-game))
- '(quote
-   (weblogger-config-alist
-    '(("default" "http://www.yuleshow.com/wordpress/xmlrpc.php" "Yule Show" "" "1"))))
- '(recentf-max-menu-items 15)
- '(savehist-mode t)
- '(show-paren-mode t)
- '(tool-bar-mode nil))
+;; custom-set-variables and custom-set-faces are in ~/yuleshow-emacs-backup/custom/custom.el
+;; Emacs will never modify this file (new.emacs) automatically.
+
 ;; (setq ispell-program-name "/usr/local/bin/ispell")
 ;;  (beacon-mode 1)
 ;; (require 'package)
@@ -64,11 +45,6 @@
 (add-to-list 'load-path "~/.emacs.d/site-lisp")
 (require 'unicad)
 
-(add-to-list 'load-path "~/.emacs.d/site-lisp/tongwen-emacs")
-(require 'hanconvert)
-
-
-(add-to-list 'load-path "~/.emacs.d/site-lisp/exec-path-from-shell")
 (require 'exec-path-from-shell)
 
 ;; ;; I set this at the beginning of my init.el for other mac specific settings
@@ -166,15 +142,9 @@
 (add-hook 'text-mode-hook #'toggle-word-wrap)
 
 (setq python-shell-interpreter "python3") 
-(require 'yuleshow-command)
-(require 'yuleshow-welcome)
+(require 'makesure-command)
+(require 'makesure-welcome)
 
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(default ((t (:family "KaiXinSongA" :foundry "    " :slant normal :weight normal :height 128 :width normal)))))
 (put 'set-goal-column 'disabled nil)
 (global-set-key (kbd "s-j") 'org-journal-list--start)
 

@@ -1,5 +1,39 @@
-/session.1038130f367ad83cf5153859323871935700000028240088
-/session.106813aa45c65f31a7153852712085800000069700191
-/ac-comphist.dat
-/history
-/ido.last
+# ============================================================
+# Runtime / state files — all redirected to ~/yuleshow-emacs-backup/
+# but ignore them here too in case Emacs writes before config loads
+# ============================================================
+
+# Session files
+session.*
+
+# Backup & auto-save
+auto-save-list/
+backups/
+\#*\#
+.\#*
+*.~*~
+
+# History & state
+history
+recentf
+places
+bookmarks
+ido.last
+ac-comphist.dat
+network-security.data
+tramp
+
+# Cache directories
+url/
+eshell/
+var/
+
+# Package-generated logs
+async-bytecomp.log
+org-journal.cache
+
+# Compiled elisp
+*.elc
+
+# macOS
+.DS_Store
